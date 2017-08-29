@@ -1,0 +1,114 @@
+.container2 {
+     background: url(../images/concrete-texture.png);
+     background-repeat: repeat;
+     padding-left: 15px;
+     padding-right: 15px;
+}
+
+#comment {
+	resize: none;
+}
+
+.img-rounded {
+	height: 75px;
+	width: 75px;
+}
+
+#hologramButton, #networkingButton, #iosrpgButton, 
+#roboticsButton, #cloudButton, #droneButton {
+	height: 250px;
+	width: 100%;
+	margin: 0px 0px 20px 0px;
+}
+
+.container3 {
+	position: relative;
+	margin: 0px 0px 10px 0px;;
+}
+
+.buttonLink {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	bottom: 35px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 25px;
+	color: white;
+	background-color: #4aaaa5;
+	padding: 6px 0px 6px 0px;
+}
+
+@media screen and (max-width: 980px) {
+	
+	#hologramButton, #networkingButton, #iosrpgButton, 
+	#roboticsButton, #cloudButton, #droneButton {
+		height: 350px;
+	}
+
+	.buttonLink {
+		bottom: 45px;
+		font-size: 20px;
+		padding: 10px 0px 10px 0px;
+	}
+
+	.col-sm-6 {
+		width: 100%;
+	}
+}	
+
+@media screen and (max-width: 951px) {
+	
+	.img-rounded {
+	height: 60px;
+	width: 60px;
+	}
+}	
+
+
+@media screen and (max-width: 768px) {
+
+	#hologramButton, #networkingButton, #iosrpgButton, 
+	#roboticsButton, #cloudButton, #droneButton {
+		height: 300px;
+
+	}
+	
+	.buttonLink {
+		padding: 15px 0px 15px 0px;
+	}
+
+	.img-rounded {
+	height: 55px;
+	width: 55px;
+	}
+	
+	.col-sm-7 {
+		width: 100%;
+	}
+
+	.col-sm-6 {
+		width: 50%;
+	}
+
+	.col-sm-4 {
+		width: 100%;
+	}	
+}	
+
+@media screen and (max-width: 640px) {
+
+	#hologramButton, #networkingButton, #iosrpgButton, 
+	#roboticsButton, #cloudButton, #droneButton {
+		height: 350px;
+	}
+
+	.buttonLink {
+		bottom: 40px;
+		font-size: 20px;
+	}	
+
+	.col-sm-6 {
+		width: 100%;
+	}
+}
